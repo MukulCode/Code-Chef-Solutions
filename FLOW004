@@ -1,0 +1,37 @@
+Problem code : FLOW004
+Link : https://www.codechef.com/problems/FLOW004
+/*||||||||||||||||||||||||||||||||||       
+||    ||\      //||     ||   //   ||      
+||    ||\\    // ||     ||  //    || 
+||    || \\  //  ||     || //     || 
+||    ||  \\//   ||     ||//      || 
+||    ||   \/    ||     ||\\      ||
+||    ||         ||     || \\     ||
+||    ||         ||     ||  \\    ||
+||    ||         ||     ||   \\   ||
+||||||||||||||||||||||||||||||||||*/
+
+
+#include<iostream>
+using namespace std;
+int main()004
+{
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		int a,rev=0,rem=0,i=0;
+		cin>>a;
+		while(a)
+		{
+			rem=a%10;
+			if(i==0 || a<=9)
+			{
+				rev=rev+rem;
+			}
+			a=a/10;
+			i++;
+		}
+		cout<<rev<<endl;
+	}
+}

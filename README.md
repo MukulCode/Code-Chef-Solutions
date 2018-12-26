@@ -20,4 +20,4 @@ Submit a pull request
 :octocat: You can also make a pull request if you solved the question with same approach as above but in programming language other than C++/C.
 
 Prerequisites ✔️
-:octocat: You can just run these codes on any IDEs like netbeans,eclipse or any online ide.
+:octocat: You can just run these codes on any IDEs like Devc++,Code Blocks or any online ide.

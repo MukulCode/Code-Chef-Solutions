@@ -1,0 +1,53 @@
+Problem Name : QUALPREL
+Problem Link : 
+
+
+
+
+
+
+
+
+#include<algorithm>
+#include<bits/stdc++.h>
+
+using namespace std;
+typedef long long int ll;
+
+int main()
+{
+    int t;
+    cin >> t;
+    while(t--)
+    {
+        int n, k;
+        cin >> n >> k;
+        vector<ll> v;
+        ll m, cnt=0;
+
+        for(int i=0; i<n; i++)
+        {
+            cin >> m;
+            v.push_back(m);
+        }
+
+        sort(v.begin(), v.end());
+        reverse(v.begin(), v.end());
+
+        ll ref=v[k-1];
+
+        /*cout << endl;
+
+        for(int i=0; i <n ;i++)
+            cout << v[i] << " ";*/
+
+        for(int i=0; i<n; i++)
+        {
+            if(v[i]>=ref)
+                cnt++;
+        }
+
+        cout << cnt << endl;
+    }
+    return 0;
+}

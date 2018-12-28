@@ -1,12 +1,15 @@
 Problem Name : QUALPREL
-Problem Link : 
-
-
-
-
-
-
-
+Problem Link : https://www.codechef.com/problems/QUALPREL
+/*||||||||||||||||||||||||||||||||||       
+||    ||\      //||     ||   //   ||      
+||    ||\\    // ||     ||  //    || 
+||    || \\  //  ||     || //     || 
+||    ||  \\//   ||     ||//      || 
+||    ||   \/    ||     ||\\      ||
+||    ||         ||     || \\     ||
+||    ||         ||     ||  \\    ||
+||    ||         ||     ||   \\   ||
+||||||||||||||||||||||||||||||||||*/
 
 #include<algorithm>
 #include<bits/stdc++.h>

@@ -11,7 +11,6 @@ Type: Practice beginners
 ||    ||         ||     ||   \\   ||
 ||||||||||||||||||||||||||||||||||*/
 
-
 #include <bits/stdc++.h>
  
 

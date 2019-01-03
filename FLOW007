@@ -1,0 +1,18 @@
+Problem Code : FLOW007
+Problem Link : https://www.codechef.com/problems/FLOW007
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    long int n;
+    cin >> t;
+    while(t--) {
+        cin >> n;
+        string num = to_string(n);
+        reverse(num.begin(), num.end());
+        cout << stoi(num) << endl;
+    }
+}

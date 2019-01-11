@@ -11,6 +11,7 @@ Problem Link: https://www.codechef.com/problems/FLOW006
 ||    ||         ||     ||   \\   ||
 ||||||||||||||||||||||||||||||||||*/
 
+
 #include<iostream>
 using namespace std;
 

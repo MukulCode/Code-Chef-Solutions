@@ -1,0 +1,27 @@
+Problem Name:Primality test
+Problem Code:PRB01
+Problem Link:https://www.codechef.com/problems/PRB01
+
+
+#include <iostream>
+using namespace std;
+
+int main() {int t;
+cin>>t;
+while(t--)
+{
+    int n,f=1;
+    cin>>n;
+    for(int i=2;i<n;++i)
+    {
+        if(n%i==0)
+        f=0;
+    }
+    if(f==1)
+    cout<<"yes\n";
+    else
+    cout<<"no\n";
+}
+	// your code goes here
+	return 0;
+}

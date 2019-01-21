@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+#include<boost/multiprecision/cpp_int.hpp>
+using boost::multiprecision::cpp_int;
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int n;
+        cpp_int r=1;
+        cin>>n;
+        for(int i=1;i<=n;i++)
+        {
+            r=r*i;
+        }
+        cout<<r<<endl;
+    }
+    return 0;
+}

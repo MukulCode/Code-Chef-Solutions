@@ -1,0 +1,32 @@
+/*||||||||||||||||||||||||||||||||||       
+||    ||\      //||     ||   //   ||      
+||    ||\\    // ||     ||  //    || 
+||    || \\  //  ||     || //     || 
+||    ||  \\//   ||     ||//      || 
+||    ||   \/    ||     ||\\      ||
+||    ||         ||     || \\     ||
+||    ||         ||     ||  \\    ||
+||    ||         ||     ||   \\   ||
+||||||||||||||||||||||||||||||||||*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,w,x,y,z;
+	cin>>t;
+	while(t--){
+		cin>>w>>x>>y>>z;
+		if(w==y)
+			if(x<z) cout<<"up\n";
+			else cout<<"down\n";
+		else
+		if(x==z)
+			if(w<y) cout<<"right\n";
+			else cout<<"left\n";
+		else
+		cout<<"sad"<<endl;
+	}
+	return 0;
+}

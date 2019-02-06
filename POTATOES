@@ -1,4 +1,17 @@
-Problem name : Farmer Feb 
+Problem name : Farmer Feb
+Problem Code: POTATOES
+Problem Link: https://www.codechef.com/problems/POTATOES
+/*||||||||||||||||||||||||||||||||||       
+||    ||\      //||     ||   //   ||      
+||    ||\\    // ||     ||  //    || 
+||    || \\  //  ||     || //     || 
+||    ||  \\//   ||     ||//      || 
+||    ||   \/    ||     ||\\      ||
+||    ||         ||     || \\     ||
+||    ||         ||     ||  \\    ||
+||    ||         ||     ||   \\   ||
+||||||||||||||||||||||||||||||||||*/
+ 
 #include <iostream>
 using namespace std;
 

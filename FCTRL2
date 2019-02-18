@@ -1,6 +1,7 @@
 //Try this before looking directly to the solution.
 
 
+
 Problem Name : Small Factorial
 Problem Code : FCTRL2
 Problem Link : https://www.codechef.com/problems/FCTRL2
@@ -14,6 +15,7 @@ Problem Link : https://www.codechef.com/problems/FCTRL2
 ||    ||         ||     ||  \\    ||
 ||    ||         ||     ||   \\   ||
 ||||||||||||||||||||||||||||||||||*/
+
 
 #include<bits/stdc++.h>
 #include<boost/multiprecision/cpp_int.hpp>

@@ -1,5 +1,5 @@
 Problem Code: TEST
-Problem Name:Life, the Universe, and Everything 
+Problem Name:Life, the Universe, and Everything. 
 Problem Link: https://www.codechef.com/problems/TEST
 
 /*||||||||||||||||||||||||||||||||||       
@@ -18,11 +18,8 @@ using namespace std;
  
 int main() {
     int a;
- 
-	// your code goes here
 	while(1){
 	cin>>a;    
- 
 	    if(a!=42) cout<<a<<endl;
 	    else {
 	        break;

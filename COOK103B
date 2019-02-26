@@ -1,0 +1,29 @@
+Problem Name: Tablet
+Problem Link: https://www.codechef.com/COOK103B/problems/TABLET
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t,n,b,w,h,p;
+	cin>>t;
+	while(t--){
+	    cin>>n>>b;
+	    int area=0;
+	    for(int i=0;i<n;i++){
+	        cin>>w>>h>>p;
+	        if(b>=p){
+	            if(w*h>area)area=w*h;
+	            
+	        }
+	        
+	    }
+	    
+	
+	if(area==0) cout<<"no tablet"<<endl;
+	else cout<<area<<endl;}
+	
+	
+		return 0;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

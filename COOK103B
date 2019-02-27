@@ -27,3 +27,33 @@ int main() {
 		return 0;
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Problem Name : Chef And Party
+Problem Link : https://www.codechef.com/COOK103B/problems/CHFPARTY
+Problem Code : CHFPARTY
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t,temp,n;
+cin>>t;
+while(t--){
+    int count=0;
+    vector<int> a;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        cin>>temp;
+        a.push_back(temp);
+    }
+sort(a.begin(),a.end());
+for(int i=0;i<n;i++){
+    if(a[i]==0)count++;
+    else if(a[i]<=count) count++;
+}
+    
+    
+ cout<<count<<endl;   
+    
+}
+	return 0;
+}

@@ -1,1 +1,33 @@
+Problem Code: CLIPLX
+Problem Link:https://www.codechef.com/COLE2019/problems/CLIPLX
+Problem Name: 
+
+
+
+
+
+
+// I tried this question for around 7 times and failed but when i solved it, i found that i have found the best solution of this question...
+
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t,x,y;
+	cin>>t;
+	while(t--){
+	    int count=0,ans=0;
+	    cin>>x>>y;
+	    if (x==y || x<y)cout<<"0"<<endl;
+	    else if(x/2==y)cout<<y<<endl;
+	    else{
+	    
+            cout<<abs(y-x)<<endl;
+	    }
+	}
+	return 0;
+}
 
